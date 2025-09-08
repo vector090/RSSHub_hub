@@ -1,0 +1,112 @@
+# RSS Proxy Server Configuration
+
+# Server configuration
+port: 1300
+timeout: 30000
+
+# Proxy configuration
+proxy:
+  enabled: false
+  host: 127.0.0.1
+  port: 7777
+  timeout: 30000
+
+# List of RSSHub providers
+providers:
+
+  # Working providers
+
+  # puppeteer also ok
+  - url: https://rss.owo.nz
+    useProxy: false
+    enabled: true
+  
+  # puppeteer also ok
+  - url: https://rsshub.cups.moe
+    useProxy: false
+    enabled: true
+
+  # puppeteer also ok
+  - url: https://rsshub.umzzz.com
+    useProxy: false
+    enabled: true
+  
+  - url: https://holoxx.f5.si
+    useProxy: false
+    enabled: true
+  
+  - url: https://rsshub.rssforever.com
+    useProxy: false
+    enabled: true
+  
+  # puppeteer also ok
+  - url: https://rsshub.pseudoyu.com
+    useProxy: true
+    enabled: true
+  
+  
+  - url: https://rsshub.ktachibana.party
+    useProxy: false
+    enabled: true
+  
+  - url: https://rsshub.asailor.org
+    useProxy: false
+    enabled: true
+  
+  - url: https://rsshub2.asailor.org
+    useProxy: false
+    enabled: true
+  
+  # puppeteer also ok
+  - url: https://rsshub.woodland.cafe
+    useProxy: false
+    enabled: true
+  
+
+
+  # official
+  - url: https://rsshub.app
+    useProxy: true
+    enabled: true
+  
+
+
+# possibly fail
+
+
+  - url: https://rsshub.isrss.com
+    useProxy: true
+    enabled: false
+    
+  - url: https://hub.slarker.me
+    useProxy: false
+    enabled: true
+  
+  - url: https://rsshub.rss.tips
+    useProxy: false
+    enabled: true
+  
+  - url: https://rss.wudifeixue.com
+    useProxy: false
+    enabled: true
+  
+  - url: https://rss.littlebaby.life
+    useProxy: false
+    enabled: true
+  
+  - url: https://rsshub.henry.wang
+    useProxy: false
+    enabled: true
+  
+  - url: https://rsshub.email-once.com
+    useProxy: false
+    enabled: true
+  
+  - url: https://rss.datuan.dev
+    useProxy: false
+    enabled: true
+  
+  - url: https://rss.4040940.xyz
+    useProxy: false
+    enabled: true
+

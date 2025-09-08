@@ -1,0 +1,19 @@
+{
+  "name": "rss-proxy-server",
+  "version": "1.0.0",
+  "description": "A proxy server for RSSHub instances",
+  "main": "rss-proxy-server-final.js",
+  "scripts": {
+    "start": "node rss-proxy-server-final.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "keywords": [
+    "rss",
+    "rsshub",
+    "proxy"
+  ],
+  "author": "RSSHub",
+  "license": "MIT"
+}
